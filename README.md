@@ -4,3 +4,4 @@
 ## JEST
 - Javascript Testing Framework
 - **testingFunctions** folder contains some functions tested by jest
+- Write testcases for sum functions using jest.
