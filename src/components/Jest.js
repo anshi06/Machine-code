@@ -1,5 +1,7 @@
+import ExternalUrlUI from "./ExternalUrlUI";
+
 const Jest = () => {
-  return <div>Jest</div>;
+  return <ExternalUrlUI/>;
 };
 
 export default Jest;
