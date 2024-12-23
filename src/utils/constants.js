@@ -28,3 +28,5 @@ export const TOPICS = [
   "Drag and Drop List",
   "Image Upload and Preview",
 ];
+
+export const GIFS_TRENDING_API = `https://api.giphy.com/v1/gifs/trending?api_key=${process.env.REACT_APP_GIF_TRENDING_API_KEY}&limit=25&offset=0&rating=g&bundle=messaging_non_clips`;
