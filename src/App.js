@@ -3,6 +3,7 @@ import HomePage from "./components/HomePage";
 import Jest from "./components/Jest";
 import RouterPage from "./components/RouterPage";
 import ReactTestingLibrary from "./components/ReactTestingLibrary";
+import ShimmerUI from "./components/ShimmerUI";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -23,6 +24,10 @@ function App() {
     {
       path: "/React-Testing-Library",
       element: <ReactTestingLibrary/>
+    },
+    {
+      path: "/ShimmerUI",
+      element: <ShimmerUI/>
     },
   ]);
 
