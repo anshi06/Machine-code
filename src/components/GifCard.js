@@ -1,6 +1,6 @@
 const GifCard = ({ url }) => {
   return (
-    <div className="w-40 md:w-56 h-48 md:h-60 rounded-lg bg-black">
+    <div className="w-40 md:w-56 h-48 md:h-60 rounded-lg">
       <iframe
         className="w-full h-full object-cover"
         src={url}
