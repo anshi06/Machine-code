@@ -4,6 +4,7 @@ import Jest from "./components/Jest";
 import RouterPage from "./components/RouterPage";
 import ReactTestingLibrary from "./components/ReactTestingLibrary";
 import ShimmerUI from "./components/ShimmerUI";
+import InfiniteScroll from "./components/InfiniteScroll";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -28,6 +29,10 @@ function App() {
     {
       path: "/ShimmerUI",
       element: <ShimmerUI/>
+    },
+    {
+      path: "/Infinite-Scroll",
+      element: <InfiniteScroll/>
     },
   ]);
 

@@ -6,7 +6,7 @@ export const TOPICS = [
   "Context API",
   "Countdown Timer (Redux Toolkit)",
   "Multi Language Support",
-  "Infinite Scroll",
+  "Infinite-Scroll",
   "Accordian",
   "Redit Nested Components",
   "Image Slider",
