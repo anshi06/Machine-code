@@ -12,11 +12,11 @@ const DUMMY_ITEMS = [
 
 const Products = () => {
   return (
-    <div className="font-bold flex flex-col my-4 gap-4">
-      {DUMMY_ITEMS.map((product, i) => (
-        <Product product={product} key={i} />
-      ))}
-    </div>
+      <div className="font-bold flex flex-col my-4 gap-4">
+        {DUMMY_ITEMS.map((product, i) => (
+          <Product product={product} key={i} />
+        ))}
+      </div>
   );
 };
 

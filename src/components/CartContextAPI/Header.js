@@ -1,9 +1,11 @@
-import CartContext from "../../context/cartContext";
+import CartContext from "../../context/CartContext";
+import ItemContext from "../../context/ItemContext";
 import HomeButton from "../HomeButton";
 import { useContext } from "react";
 
 const Header = () => {
   const cartCtx = useContext(CartContext);
+  const { items} = useContext(ItemContext);
   
   const handleShowCartDetails = () => {
     cartCtx.toggleShowCartDetails(!cartCtx.showDetails)
@@ -26,7 +28,7 @@ const Header = () => {
           className="md:py-4 md:px-3 md:font-bold "
           onClick={handleShowCartDetails}
         >
-          Cart-(0)
+          Cart-({items.length})
         </button>
       </div>
     </div>
