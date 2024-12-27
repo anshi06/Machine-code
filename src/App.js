@@ -5,6 +5,7 @@ import RouterPage from "./components/RouterPage";
 import ReactTestingLibrary from "./components/ReactTestingLibrary";
 import ShimmerUI from "./components/ShimmerUI";
 import InfiniteScroll from "./components/InfiniteScroll";
+import Cart from "./components/CartContextAPI/Cart";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -33,6 +34,10 @@ function App() {
     {
       path: "/Infinite-Scroll",
       element: <InfiniteScroll/>
+    },
+    {
+      path: "/Cart",
+      element: <Cart/>
     },
   ]);
 
