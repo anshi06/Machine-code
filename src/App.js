@@ -6,6 +6,7 @@ import ReactTestingLibrary from "./components/ReactTestingLibrary";
 import ShimmerUI from "./components/ShimmerUI";
 import InfiniteScroll from "./components/InfiniteScroll";
 import Cart from "./components/CartContextAPI/Cart";
+import CountdownTimer from "./components/ReduxCounter/CountdownTimer";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -16,7 +17,7 @@ function App() {
 
     {
       path: "/React-router",
-      element: <RouterPage/>
+      element: <RouterPage />,
     },
 
     {
@@ -25,19 +26,23 @@ function App() {
     },
     {
       path: "/React-Testing-Library",
-      element: <ReactTestingLibrary/>
+      element: <ReactTestingLibrary />,
     },
     {
       path: "/ShimmerUI",
-      element: <ShimmerUI/>
+      element: <ShimmerUI />,
     },
     {
       path: "/Infinite-Scroll",
-      element: <InfiniteScroll/>
+      element: <InfiniteScroll />,
     },
     {
       path: "/Cart",
-      element: <Cart/>
+      element: <Cart />,
+    },
+    {
+      path: "/Countdown-Timer",
+      element: <CountdownTimer />,
     },
   ]);
 
