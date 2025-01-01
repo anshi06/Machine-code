@@ -7,6 +7,7 @@ import ShimmerUI from "./components/ShimmerUI";
 import InfiniteScroll from "./components/InfiniteScroll";
 import Cart from "./components/CartContextAPI/Cart";
 import CountdownTimer from "./components/ReduxCounter/CountdownTimer";
+import MultiLang from "./components/MultiLang";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -44,6 +45,10 @@ function App() {
       path: "/Countdown-Timer",
       element: <CountdownTimer />,
     },
+    {
+      path: "/MultiLanguageSupport",
+      element: <MultiLang/>
+    }
   ]);
 
   return <RouterProvider router={appRouter} />;

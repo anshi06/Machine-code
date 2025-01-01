@@ -5,7 +5,7 @@ export const TOPICS = [
   "ShimmerUI",
   "Cart",
   "Countdown-Timer",
-  "Multi Language Support",
+  "MultiLanguageSupport",
   "Infinite-Scroll",
   "Accordian",
   "Redit Nested Components",
@@ -19,8 +19,8 @@ export const TOPICS = [
   "Responsive Navigation Bar",
   "Analog Clock",
   "Whats app Chat",
-  "Snake Game", 
-  "Tic Tac Toe", 
+  "Snake Game",
+  "Tic Tac Toe",
   "Connect Four",
   "Modal Component",
   "Dropdown Menu",
@@ -30,3 +30,11 @@ export const TOPICS = [
 ];
 
 export const GIFS_TRENDING_API = `https://api.giphy.com/v1/gifs/trending?api_key=${process.env.REACT_APP_GIF_TRENDING_API_KEY}&limit=25&offset=0&rating=g&bundle=messaging_non_clips`;
+
+export const languages = [
+  { type: "en", content: "Write anything", lang: "English" },
+  { type: "hi", content: "कुछ भी लिखो", lang: "Hindi" },
+  { type: "sp", content: "escribe cualquier cosa", lang: "Spanish" },
+  { type: "ch", content: "写任何东西", lang: "Chinese" },
+  { type: "ja", content: "何でも書いてください" , lang: "Japenese"},
+];
