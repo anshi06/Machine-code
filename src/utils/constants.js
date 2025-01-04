@@ -38,3 +38,15 @@ export const languages = [
   { type: "ch", content: "写任何东西", lang: "Chinese" },
   { type: "ja", content: "何でも書いてください" , lang: "Japenese"},
 ];
+
+export const accordianData = [
+  {title: "Accordian #1", body: "I am Accordian Item"},
+  {title: "Accordian #2", body: "I am Accordian Item"},
+  {title: "Accordian #3", body: "I am Accordian Item"},
+  {title: "Accordian #4", body: "I am Accordian Item"},
+  {title: "Accordian #5", body: "I am Accordian Item"},
+  {title: "Accordian #6", body: "I am Accordian Item"},
+  {title: "Accordian #7", body: "I am Accordian Item"},
+  {title: "Accordian #8", body: "I am Accordian Item"},
+  {title: "Accordian #9", body: "I am Accordian Item"}
+]

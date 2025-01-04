@@ -8,6 +8,7 @@ import InfiniteScroll from "./components/InfiniteScroll";
 import Cart from "./components/CartContextAPI/Cart";
 import CountdownTimer from "./components/ReduxCounter/CountdownTimer";
 import MultiLang from "./components/MultiLang";
+import Accordian from "./components/Accordian/Accordian";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -48,6 +49,10 @@ function App() {
     {
       path: "/MultiLanguageSupport",
       element: <MultiLang/>
+    },
+    {
+      path: "/Accordian",
+      element: <Accordian/>
     }
   ]);
 
