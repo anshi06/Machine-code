@@ -9,6 +9,7 @@ import Cart from "./components/CartContextAPI/Cart";
 import CountdownTimer from "./components/ReduxCounter/CountdownTimer";
 import MultiLang from "./components/MultiLang";
 import Accordian from "./components/Accordian/Accordian";
+import Comments from "./components/Comments";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -53,6 +54,10 @@ function App() {
     {
       path: "/Accordian",
       element: <Accordian/>
+    },
+    {
+      path: "/ReditNestedComponents",
+      element: <Comments/>
     }
   ]);
 
