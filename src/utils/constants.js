@@ -9,7 +9,7 @@ export const TOPICS = [
   "Infinite-Scroll",
   "Accordian",
   "ReditNestedComponents",
-  "Image Slider",
+  "ImageSlider",
   "Real Time Updates",
   "You Tube Live Stream Chat",
   "AutoComplete and SearchBar",

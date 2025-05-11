@@ -10,6 +10,7 @@ import CountdownTimer from "./components/ReduxCounter/CountdownTimer";
 import MultiLang from "./components/MultiLang";
 import Accordian from "./components/Accordian/Accordian";
 import Comments from "./components/Comments";
+import ImageSlider from "./components/ImageSlider";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -58,6 +59,10 @@ function App() {
     {
       path: "/ReditNestedComponents",
       element: <Comments/>
+    },
+    {
+      path: "/ImageSlider",
+      element: <ImageSlider/>
     }
   ]);
 
