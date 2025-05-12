@@ -10,7 +10,7 @@ export const TOPICS = [
   "Accordian",
   "ReditNestedComponents",
   "ImageSlider",
-  "YouTubeLiveStreamChat",
+  "LiveChat",
   "AutoComplete and SearchBar",
   "Building YouTube",
   "Multi Select Component",

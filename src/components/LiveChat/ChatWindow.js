@@ -1,17 +1,9 @@
-import HomeButton from "../HomeButton";
+import ChatMessage from "./ChatMessage";
+
 const ChatWindow = () => {
-    return  <div className="">
-    <div className="flex bg-blue-950 justify-between items-baseline flex-col">
-      <div className="mx-auto">
-        <HomeButton />
-      </div>
-      <h1 className="text-yellow-200 mx-auto font-bold text-3xl mb-6">
-        Live Chat
-      </h1>
+    return <div className="h-[600px] w-1/3 bg-gray-900 rounded-md text-white">
+       <ChatMessage name="Anshi" photo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5aydXGxvwdau0WyWjbrxtj1GwiuQaxDyaYPjKtUH-qy70mBf58HnQ240&s" message={"Hello"}/>
     </div>
-    <div>
-    </div>
-  </div>
 }
 
 export default ChatWindow;
