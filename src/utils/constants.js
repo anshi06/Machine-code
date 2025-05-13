@@ -11,7 +11,7 @@ export const TOPICS = [
   "ReditNestedComponents",
   "ImageSlider",
   "LiveChat",
-  "AutoComplete and SearchBar",
+  "AutoCompleteAndSearchBar",
   "Building YouTube",
   "Multi Select Component",
   "Text Editor",

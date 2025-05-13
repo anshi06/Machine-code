@@ -12,6 +12,7 @@ import Accordian from "./components/Accordian/Accordian";
 import Comments from "./components/Comments";
 import ImageSlider from "./components/ImageSlider";
 import LiveChat from "./components/LiveChat/LiveChat";
+import SearchUi from "./components/SearchUi";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -66,8 +67,8 @@ function App() {
       element: <ImageSlider />,
     },
     {
-      path: "/LiveChat",
-      element: <LiveChat/>,
+      path: "/AutoCompleteAndSearchBar",
+      element: <SearchUi />,
     },
   ]);
 
