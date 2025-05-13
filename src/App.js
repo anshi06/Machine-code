@@ -11,6 +11,7 @@ import MultiLang from "./components/MultiLang";
 import Accordian from "./components/Accordian/Accordian";
 import Comments from "./components/Comments";
 import ImageSlider from "./components/ImageSlider";
+import LiveChat from "./components/LiveChat/LiveChat";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -50,20 +51,24 @@ function App() {
     },
     {
       path: "/MultiLanguageSupport",
-      element: <MultiLang/>
+      element: <MultiLang />,
     },
     {
       path: "/Accordian",
-      element: <Accordian/>
+      element: <Accordian />,
     },
     {
       path: "/ReditNestedComponents",
-      element: <Comments/>
+      element: <Comments />,
     },
     {
       path: "/ImageSlider",
-      element: <ImageSlider/>
-    }
+      element: <ImageSlider />,
+    },
+    {
+      path: "/LiveChat",
+      element: <LiveChat/>,
+    },
   ]);
 
   return <RouterProvider router={appRouter} />;
