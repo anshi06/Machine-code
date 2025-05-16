@@ -66,6 +66,10 @@ function App() {
       path: "/ImageSlider",
       element: <ImageSlider />,
     },
+     {
+      path: "/LiveChat",
+      element: <LiveChat/>,
+    },
     {
       path: "/AutoCompleteAndSearchBar",
       element: <SearchUi />,
